@@ -6,9 +6,11 @@
         "target": "ESNext",
         "moduleResolution": "NodeNext",
         "module": "NodeNext",
-        "strict": false,
+        "strict": true,
         "sourceMap": true,
         "esModuleInterop": true,
         "declaration": true
     },
+    "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
